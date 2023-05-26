@@ -4,8 +4,9 @@ from functions import *
 def menu():
     print("\n==== Programming Quotes ====")
     print("1. Random quote")
-    print("2. All quotes")
-    print("3. Exit")
+    print("2. Add quote")
+    print("3. All quotes")
+    print("4. Exit")
 
 
 def main():
@@ -20,6 +21,8 @@ def main():
         elif choice == "2":
             view_quotes(quotes)
         elif choice == "3":
+            add_quote()
+        elif choice == "4":
             print("Good bye...")
             break
         else:
